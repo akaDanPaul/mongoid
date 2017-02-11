@@ -24,7 +24,7 @@ module Mongoid
     option :duplicate_fields_exception, default: false
     option :use_activesupport_time_zone, default: true
     option :use_utc, default: false
-    option :log_level, default: :info
+    option :log_level, default: :debug
     option :belongs_to_required_by_default, default: true
     option :app_name, default: nil
 
